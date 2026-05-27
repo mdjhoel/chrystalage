@@ -67,7 +67,7 @@ const pages = {
     `,
     realty: `
         <div class="page-fade">
-            <h1>Apex Realty Services</h1>
+            <h1>Realty Services</h1>
             <p>Navigating properties acquisitions requires sharp strategy. Our full-service real estate brokerage assists buyers, sellers, and corporate investors with portfolio expansion.</p>
             <p>Our database features exclusive off-market opportunities that give you a competitive edge.</p>
         </div>
