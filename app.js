@@ -21,11 +21,11 @@ support.</p>
                 </div>
                 <div class="card">
                     <h3>Propery Maintenance</h3>
-                    <p>From minor custom renovations to full-scale commercial builds, our build quality stands the test of time.</p>
+                    <p>Reliable property maintenance and renovation services focused on quality workmanship and lasting value.</p>
                 </div>
                 <div class="card">
                     <h3>Rental/Leasing Solutions</h3>
-                    <p>Explore luxury residential stays or highly optimized commercial rental spaces tailored for growth.</p>
+                    <p>Explore residential living spaces designed for comfort, style and modern living.</p>
                 </div>
             </div>
         </div>
@@ -45,7 +45,7 @@ lasting value.</p>
 craftsmanship, thoughtful design, and attention to detail. As we continue to grow, we remain
 committed to creating modern spaces and developments that positively contribute to
 communities and stand the test of time.</p>
-            <img src="sold.jpeg">
+            <img src="about.png">
         </div>
     `,
     residential: `
@@ -60,6 +60,29 @@ to growing communities while maintaining high standards of quality and attention
             <div class="grid">
                 <div class="card"><h4>Urban Condos</h4><p>Modern luxury in the heart of the city layout.</p></div>
                 <div class="card"><h4>Suburban Estates</h4><p>Spacious family living spaces featuring sustainable construction.</p></div>
+            </div>
+        </div>
+    `,
+    'rental': `
+        <div class="page-fade">
+            <h1>Rental & Leasing</h1>
+            <p>Crystal Age Developments Group takes pride in providing well-designed rental and leasing
+properties that offer comfort, convenience, and quality living environments. Our properties are
+thoughtfully selected and developed with close attention to location, functionality, and modern
+living standards.</p>
+<p>Crystal Age properties are highly sought after for their quality design, friendly environments,
+and proximity to both downtown and uptown amenities. This careful approach to property
+selection and development has earned us a strong reputation, with many of our rental units leased
+within weeks of advertising.</p>
+<p>To maintain the quality and value of our properties, we provide dedicated property management
+services exclusively for Crystal Age Developments Group properties, ensuring our tenants enjoy
+a well-maintained, responsive, and positive living experience.</p>
+            <h2>Current Listings</h2><br>
+            <p>There are currently no active listings available for rent. Please check back soon for future updates.</p>
+            <h2>Previous Listings</h2>
+            <div class="grid">
+                <div class="card"><h4>Example 1</h4><p>Modern luxury in the heart of the city layout.</p></div>
+                <div class="card"><h4>Example 2</h4><p>Spacious family living spaces featuring sustainable construction.</p></div>
             </div>
         </div>
     `,
@@ -106,21 +129,38 @@ to growing communities while maintaining high standards of quality and attention
             </ul>
         </div>
     `,
-    realty: `
+    'realty': `
         <div class="page-fade">
-            <h1>Realty Services</h1>
-            <p>Navigating properties acquisitions requires sharp strategy. Our full-service real estate brokerage assists buyers, sellers, and corporate investors with portfolio expansion.</p>
-            <p>Our database features exclusive off-market opportunities that give you a competitive edge.</p>
+            <h1>Realty</h1>
+            <p>Crystal Age Developments Group provides flexible realty support designed to make buying and
+selling property simple, efficient, and stress-free. We work in partnership with reliable and
+experienced realtors to help our clients successfully buy or sell their homes with confidence.
+For clients who prefer a more direct approach, we also offer assistance with private property
+sales without the use of a realtor. This gives homeowners and buyers greater control, reduced
+costs, and a more personalized transaction process.</p>
+<p>At Crystal Age Developments Group, we believe in giving our clients options. Whether through
+trusted real estate professionals or private sales support, we are committed to helping you
+achieve the best possible outcome with clarity, convenience, and professionalism.</p>
+             <h2>Current Listings</h2><br>
+            <p>There are currently no active listings available for sale. Please check back soon for future updates.</p>
+            <h2>Previous Listings</h2>
+            <div class="grid">
+                <div class="card"><h4>Example 1</h4><p>Modern luxury in the heart of the city layout.</p></div>
+                <div class="card"><h4>Example 2</h4><p>Spacious family living spaces featuring sustainable construction.</p></div>
+            </div>
         </div>
     `,
     contracting: `
         <div class="page-fade">
             <h1>Property Maintenance</h1>
-            <p>We build with precision. Our licensed contracting division handles architecture, engineering, project management, and final hand-off finishes.</p>
-            <div class="grid">
-                <div class="card"><h4>Commercial Build-outs</h4><p>Office spaces, restaurants, and retail spaces optimized for workflows.</p></div>
-                <div class="card"><h4>Custom Home Renovations</h4><p>High-end structural additions, luxury kitchens, and exterior redesigns.</p></div>
-            </div>
+            <p>Crystal Age Developments Group provides professional property maintenance and residential
+contracting services designed to keep homes and buildings in excellent condition. We focus on
+delivering reliable, high-quality workmanship with efficiency, care, and attention to detail.
+Our services cover a wide range of interior, exterior, and installation works. This includes
+repairs, finishing, and general maintenance solutions that help maintain and improve the
+functionality, appearance, and value of every property we service.</p>
+<p>From small repairs to complete maintenance tasks, we take pride in providing dependable
+service, clear communication, and quality results that our clients can trust.</p>
         </div>
     `,
     contact: `
