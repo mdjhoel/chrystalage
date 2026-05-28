@@ -39,10 +39,11 @@ nav {
     display: flex;
     align-items: center;
     gap: 20px;
+    background-color: #1a252f;
 }
 
 nav a, .dropbtn {
-    color: #cbd5e1;
+    color: white;
     text-decoration: none;
     font-size: 0.95rem;
     font-weight: 500;
@@ -135,4 +136,77 @@ footer {
     padding: 1.5rem;
     font-size: 0.85rem;
     margin-top: auto;
+}
+
+/* Mobile Menu Toggle Button */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+.menu-toggle span {
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Responsive Media Query: 768px and down */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: flex; /* Show the hamburger lines */
+    }
+
+    nav {
+        display: none; /* Hide standard nav row */
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #1a252f;
+        padding: 1.5rem 5%;
+        gap: 15px;
+        align-items: flex-start;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        border-top: 1px solid #2c3e50;
+    }
+
+    /* Reveals the responsive drawer when toggled */
+    nav.active {
+        display: flex;
+    }
+
+    .dropdown {
+        width: 100%;
+    }
+
+    .dropdown-content {
+        position: relative;
+        top: 0;
+        box-shadow: none;
+        padding-left: 15px;
+        background-color: #243342;
+        margin-top: 5px;
+    }
+
+    /* Hamburger transformation logic into an 'X' shape */
+    .menu-toggle.open span:nth-child(1) {
+        transform: translateY(9px) rotate(45deg);
+    }
+    .menu-toggle.open span:nth-child(2) {
+        opacity: 0;
+    }
+    .menu-toggle.open span:nth-child(3) {
+        transform: translateY(-9px) rotate(-45deg);
+    }
 }
